@@ -21,4 +21,6 @@ class Owner
     @@all.clear
   end
 
+
+
 end
