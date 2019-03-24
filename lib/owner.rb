@@ -11,7 +11,7 @@ class Owner
     @@all << species
   end
   
-  def self.say_species
+  def self.all
     @@all
   end
 
