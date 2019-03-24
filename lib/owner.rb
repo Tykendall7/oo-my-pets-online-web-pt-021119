@@ -27,7 +27,7 @@ class Owner
   end
 
   def buy_fish (fishes=0)
-    
+    fish+= 1
   end
 
   def buy_cat
