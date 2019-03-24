@@ -1,11 +1,11 @@
 class Cat
   # code goes here
-  attr_accessor :cat
-  attr_writer :name
+  attr_accessor :cat, :name
+
   
   def initialize (cat)
     @cat= cat
-    name = crookshanks
+
   end
   
   def name
