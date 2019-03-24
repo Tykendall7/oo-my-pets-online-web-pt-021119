@@ -8,8 +8,5 @@ class Cat
 
   end
   
-  def name
-    @name = name
-  end
   
 end
