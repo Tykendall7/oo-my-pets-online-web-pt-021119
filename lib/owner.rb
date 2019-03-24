@@ -13,7 +13,7 @@ class Owner
     @@all
   end
   
-  def self.count_returns
+  def self.count
     @@all.size
   end
   
