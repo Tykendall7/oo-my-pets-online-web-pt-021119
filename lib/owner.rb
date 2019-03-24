@@ -25,5 +25,8 @@ class Owner
     "I am a #{species}."
   end
 
+  def name
+    @name=name
+  end
 
 end
