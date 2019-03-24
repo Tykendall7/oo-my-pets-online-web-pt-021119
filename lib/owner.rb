@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor  :cat, :dog, :fish
+  attr_accessor 
   attr_reader :name, :species
   @@all=[]
   
