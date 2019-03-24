@@ -26,8 +26,8 @@ class Owner
     "I am a #{species}."
   end
 
-  def buy_fish (fishes=0)
-    fish+= 1
+  def buy_fish 
+    fish=
   end
 
   def buy_cat
