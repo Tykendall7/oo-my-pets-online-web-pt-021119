@@ -11,7 +11,7 @@ class Owner
   end
   
   def self.say_species
-    @self
+    @self.species
   end
 
 end
