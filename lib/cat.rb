@@ -5,6 +5,7 @@ class Cat
   
   def initialize (cat)
     @cat= cat
+    name = crookshanks
   end
   
   def name
