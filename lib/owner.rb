@@ -44,11 +44,11 @@ class Owner
   end
   
   def walk_dogs
-    
+    pets[:dogs].map {|dog| dog.mood = "happy"}
   end
   
   def play_with_cats
-    
+    pets[:cats].map {|cats| cat.mood = "happy"}
   end
   
   def feed_fish
