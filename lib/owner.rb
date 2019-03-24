@@ -3,8 +3,6 @@ class Owner
   attr_accessor :owner, :cat, :dog, :fish
   attr_reader :name, :species
   @@all=[]
-  @@count_returns = 0
-  @@reset_all= 0
   
   def initialize (species)
     @species= species
@@ -16,9 +14,11 @@ class Owner
   end
   
   def self.count_returns
+    @@all.size
   end
   
   def self.reset_all
+    @@all
   end
 
 end
