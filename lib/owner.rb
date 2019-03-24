@@ -6,6 +6,12 @@ class Owner
   @@count_returns = 0
   @@reset_all= 0
   
+  def initialize (species)
+    @species= species
+  end
   
+  def self.say_species
+    @self
+  end
 
 end
